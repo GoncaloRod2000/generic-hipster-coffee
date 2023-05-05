@@ -1,63 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.scss">
-</head>
-<body>
-    
-<div class="container1">
-<header>
-    <img class="logo" src="logo.svg" alt="logo">
-</header>
-<nav>
-    <ul>
-        <li>Home</li>
-        <li>Menu</li>
-        <li>Coffee</li>
-        <li>Our Story</li>
+    <link rel="stylesheet" href="./style.scss" />
+  </head>
+  <body>
+    <div class="container1">
+      
+      <img class="logo" src="./img/logo.svg" alt="logo" />
+
+      <nav class="menu">
+        <ul>
+          <li>Home</li>
+          <li>Menu</li>
+          <li>Coffee</li>
+          <li>Our Story</li>
         </ul>
-        </nav>
+      </nav>
     </div>
-         <section>
-        <h1>Generic hipster coffee</h1>
-        <h2>Specialty coffee, fresh food & local community</h2>
-        <img src="counter.jpg" alt="counter">
 
-        <h3>opening hours</h3>
-        <p>sunday-thursday: 08:00-23:00</p>
-        <p>friday-saturday: 08:00-01:00</p>
-        <h3>book a table</h3>
-        <p>call +1 415-321-4567</p>
-        <h3>address</h3>
-        <p>321 ivy st.</p>
-        <p>san francisco/ CA 94102</p>
-        <img src="istockphoto-493553150-1024x1024.jpg" alt="map photo">
+    <section class="main">
+        <section class="titles">
+            <h1>Generic hipster coffee</h1>
+            <h2>Specialty coffee,fresh food & local community</h2>
         </section>
-        <footer>
+        <section>
+            <img class="counter" src="/img/counter.jpg" alt="counter" />
+            <div class="info">
+                <div class="hours info-content">
+                    <span class="info-heading">opening hours</span>
+                    <span>sunday-thursday: 08:00-23:00</span>
+                    <span>friday-saturday: 08:00-01:00</span>
+                </div>
+                <div class="booking info-content">
+                    <span class="info-heading">book a table</span>
+                    <span>call +1 415-321-4567</span>
+                </div>
+                <div class="adress info-content">
+                    <span class="info-heading">address</span>
+                    <span>321 ivy st.</span>
+                    <span>san francisco/ CA 94102</span>
+                </div>
+            </div>
+      </section>
+      <section>
+        <img
+          class="map"
+          src="/img/istockphoto-493553150-1024x1024.jpg"
+          alt="map photo"
+        />
+      </section>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <nav class="menu2">
+            <ul>
+              <li>Home</li>
+              <li>Menu</li>
+              <li>Coffee</li>
+              <li>Our Story</li>
+            </ul>
+          </nav>
+          <h3>#hipstersmakecoffee</h3>
+          <p>
+            follow us on <a href="https://twitter.com/">twitter</a> and
+            <a href="https://www.instagram.com/">instergram</a>
+          </p>
 
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Menu</li>
-                    <li>Coffee</li>
-                    <li>Our Story</li>
-                    </ul>
-                    </nav>
-                    <h3>#hipstersmakecoffee</h3>
-                    <p>follow us on <a href="https://twitter.com/"></a> and  <a href="https://www.instagram.com/"></a>
-                     </p>
-        </footer>
-
-
-
-
-
-
-
-
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
